@@ -12,7 +12,6 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
 }
 
