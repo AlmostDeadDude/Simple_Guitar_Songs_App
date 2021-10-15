@@ -45,8 +45,8 @@ function changeChordPicEvent(el) {
             scales_chords_api_onload() // API function
             //also change the position si it fits the input
             const top = e.target.offsetTop
-            chord_pic.style.top = `${top+e.target.offsetHeight/2-129/2}px`
-            chord_pic.style.left = `${e.target.offsetLeft+100}px`
+            chord_pic.style.top = `${top-scrollY+e.target.offsetHeight/2-129/2}px`
+            chord_pic.style.left = `${e.target.offsetLeft-scrollX+100}px`
             chord_pic.classList.remove('hidden')
         }
     })
