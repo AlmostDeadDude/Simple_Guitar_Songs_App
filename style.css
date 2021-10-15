@@ -22,10 +22,8 @@ h1 {
 
 #chord_pic {
   position: fixed;
-  right: 10px;
   top: 100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  padding: 0;
   background-color: white;
   padding: 5px;
   border-radius: 5px;
