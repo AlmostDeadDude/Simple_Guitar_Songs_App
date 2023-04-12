@@ -17,6 +17,7 @@ body {
 
 h1 {
   align-self: center;
+  width: 100%;
 }
 
 #chord_pic {
@@ -35,6 +36,8 @@ h1 {
   border: none;
   resize: none;
   height: 50px;
+  width: 100%;
+  text-align: center;
 }
 
 #title:focus {

@@ -152,7 +152,6 @@ window.addEventListener('beforeprint', () => {
 })
 
 window.addEventListener('afterprint', () => {
-    chord_pic.classList.remove('hidden')
     document.querySelector('.button-container').classList.remove('hidden')
 })
 
